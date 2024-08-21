@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #141617;
+    line-height: 1.6;
+    background-color: beige;
+}
+
+header {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.clginfo {
+    margin-left: auto;
+    text-align: right;
+}
+
+.clginfo h1 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.clginfo p {
+    margin: 0;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+nav {
+    background-color: #343a40;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #495057;
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #495057;
+    z-index: 1;
+    list-style: none;
+    padding: 10px 0;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
+.submenu-content li {
+    margin: 0;
+}
+
+.submenu-content a {
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.submenu-content a:hover {
+    background-color: #6c757d;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #e9ecef;
+    border-top: 2px solid #ddd;
+}
+
+.socialmedia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia ul li {
+    margin: 0 10px;
+}
+
+.socialmedia ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.socialmedia ul li a:hover {
+    color: #0056b3;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
