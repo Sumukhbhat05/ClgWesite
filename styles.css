@@ -2,9 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #141617;
+    color: #000000;
     line-height: 1.6;
-    background-color: beige;
+    background-color: burlywood;
 }
 
 header {
@@ -12,11 +12,12 @@ header {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #760303;
 }
 
 .logo img {
-    height: 60px;
+    height: 100px;
+    
 }
 
 .clginfo {
@@ -26,8 +27,8 @@ header {
 
 .clginfo h1 {
     margin: 5px 0;
-    font-size: 1.5rem;
-    color: #343a40;
+    font-size: 2rem;
+    color: #4f88c2;
 }
 
 .clginfo p {
@@ -37,7 +38,7 @@ header {
 }
 
 nav {
-    background-color: #343a40;
+    background-color: #571a1a;
 }
 
 .menu {
@@ -136,4 +137,10 @@ footer p {
     margin-top: 10px;
     font-size: 0.9rem;
     color: #6c757d;
+}
+.aboutus
+{
+    background-color: azure;
+    border-bottom : 2px solid #760303;
+    text-align: center;
 }
