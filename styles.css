@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #000000;
+    color: #000;
     line-height: 1.6;
     background-color: burlywood;
 }
@@ -17,7 +17,6 @@ header {
 
 .logo img {
     height: 100px;
-    
 }
 
 .clginfo {
@@ -55,7 +54,7 @@ nav {
 }
 
 .menu a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
@@ -89,7 +88,7 @@ nav {
 
 .submenu-content a {
     padding: 10px 20px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .submenu-content a:hover {
@@ -98,7 +97,7 @@ nav {
 
 main {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #fff;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -138,9 +137,9 @@ footer p {
     font-size: 0.9rem;
     color: #6c757d;
 }
-.aboutus
-{
+
+.aboutus {
     background-color: azure;
-    border-bottom : 2px solid #760303;
+    border-bottom: 2px solid #760303;
     text-align: center;
 }
